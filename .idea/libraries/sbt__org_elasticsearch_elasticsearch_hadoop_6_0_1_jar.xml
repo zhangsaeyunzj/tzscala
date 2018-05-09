@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="sbt: org.elasticsearch:elasticsearch-hadoop:6.0.1:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.elasticsearch/elasticsearch-hadoop/jars/elasticsearch-hadoop-6.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
