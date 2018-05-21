@@ -12,27 +12,27 @@
   </property>
   <property>
     <name>yarn.resourcemanager.address</name>
-    <value>cdh241:8032</value>
+    <value>cdh240:8032</value>
   </property>
   <property>
     <name>yarn.resourcemanager.admin.address</name>
-    <value>cdh241:8033</value>
+    <value>cdh240:8033</value>
   </property>
   <property>
     <name>yarn.resourcemanager.scheduler.address</name>
-    <value>cdh241:8030</value>
+    <value>cdh240:8030</value>
   </property>
   <property>
     <name>yarn.resourcemanager.resource-tracker.address</name>
-    <value>cdh241:8031</value>
+    <value>cdh240:8031</value>
   </property>
   <property>
     <name>yarn.resourcemanager.webapp.address</name>
-    <value>cdh241:8088</value>
+    <value>cdh240:8088</value>
   </property>
   <property>
     <name>yarn.resourcemanager.webapp.https.address</name>
-    <value>cdh241:8090</value>
+    <value>cdh240:8090</value>
   </property>
   <property>
     <name>yarn.resourcemanager.client.thread-count</name>
@@ -48,7 +48,7 @@
   </property>
   <property>
     <name>yarn.scheduler.minimum-allocation-mb</name>
-    <value>2048</value>
+    <value>1024</value>
   </property>
   <property>
     <name>yarn.scheduler.increment-allocation-mb</name>
@@ -56,7 +56,7 @@
   </property>
   <property>
     <name>yarn.scheduler.maximum-allocation-mb</name>
-    <value>40960</value>
+    <value>16384</value>
   </property>
   <property>
     <name>yarn.scheduler.minimum-allocation-vcores</name>

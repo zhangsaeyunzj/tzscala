@@ -80,19 +80,19 @@
   </property>
   <property>
     <name>mapreduce.jobhistory.address</name>
-    <value>rd242:10020</value>
+    <value>cdh240:10020</value>
   </property>
   <property>
     <name>mapreduce.jobhistory.webapp.address</name>
-    <value>rd242:19888</value>
+    <value>cdh240:19888</value>
   </property>
   <property>
     <name>mapreduce.jobhistory.webapp.https.address</name>
-    <value>rd242:19890</value>
+    <value>cdh240:19890</value>
   </property>
   <property>
     <name>mapreduce.jobhistory.admin.address</name>
-    <value>rd242:10033</value>
+    <value>cdh240:10033</value>
   </property>
   <property>
     <name>mapreduce.framework.name</name>
@@ -108,7 +108,7 @@
   </property>
   <property>
     <name>yarn.app.mapreduce.am.resource.mb</name>
-    <value>2048</value>
+    <value>1024</value>
   </property>
   <property>
     <name>yarn.app.mapreduce.am.resource.cpu-vcores</name>
@@ -120,7 +120,7 @@
   </property>
   <property>
     <name>yarn.app.mapreduce.am.command-opts</name>
-    <value>-Djava.net.preferIPv4Stack=true -Xmx1610612736</value>
+    <value>-Djava.net.preferIPv4Stack=true -Xmx825955249</value>
   </property>
   <property>
     <name>mapreduce.map.java.opts</name>
@@ -169,9 +169,5 @@
   <property>
     <name>mapreduce.job.redacted-properties</name>
     <value>fs.s3a.access.key,fs.s3a.secret.key</value>
-  </property>
-  <property>
-    <name>mapreduce.app-submission.cross-platform</name>
-    <value>true</value>
   </property>
 </configuration>

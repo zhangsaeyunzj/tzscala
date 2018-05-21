@@ -4,59 +4,59 @@
 <configuration>
   <property>
     <name>dfs.nameservices</name>
-    <value>nameservicebk</value>
+    <value>tztax</value>
   </property>
   <property>
-    <name>dfs.client.failover.proxy.provider.nameservicebk</name>
+    <name>dfs.client.failover.proxy.provider.tztax</name>
     <value>org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider</value>
   </property>
   <property>
-    <name>dfs.ha.automatic-failover.enabled.nameservicebk</name>
+    <name>dfs.ha.automatic-failover.enabled.tztax</name>
     <value>true</value>
   </property>
   <property>
     <name>ha.zookeeper.quorum</name>
-    <value>cdh241:2181,cdh243:2181,rd242:2181</value>
+    <value>cdh240:2181,cdh243:2181,rd242:2181</value>
   </property>
   <property>
-    <name>dfs.ha.namenodes.nameservicebk</name>
-    <value>namenode167,namenode251</value>
+    <name>dfs.ha.namenodes.tztax</name>
+    <value>namenode157,namenode159</value>
   </property>
   <property>
-    <name>dfs.namenode.rpc-address.nameservicebk.namenode167</name>
-    <value>cdh241:8020</value>
+    <name>dfs.namenode.rpc-address.tztax.namenode157</name>
+    <value>cdh240:8020</value>
   </property>
   <property>
-    <name>dfs.namenode.servicerpc-address.nameservicebk.namenode167</name>
-    <value>cdh241:8022</value>
+    <name>dfs.namenode.servicerpc-address.tztax.namenode157</name>
+    <value>cdh240:8022</value>
   </property>
   <property>
-    <name>dfs.namenode.http-address.nameservicebk.namenode167</name>
-    <value>cdh241:50070</value>
+    <name>dfs.namenode.http-address.tztax.namenode157</name>
+    <value>cdh240:50070</value>
   </property>
   <property>
-    <name>dfs.namenode.https-address.nameservicebk.namenode167</name>
-    <value>cdh241:50470</value>
+    <name>dfs.namenode.https-address.tztax.namenode157</name>
+    <value>cdh240:50470</value>
   </property>
   <property>
-    <name>dfs.namenode.rpc-address.nameservicebk.namenode251</name>
+    <name>dfs.namenode.rpc-address.tztax.namenode159</name>
     <value>rd242:8020</value>
   </property>
   <property>
-    <name>dfs.namenode.servicerpc-address.nameservicebk.namenode251</name>
+    <name>dfs.namenode.servicerpc-address.tztax.namenode159</name>
     <value>rd242:8022</value>
   </property>
   <property>
-    <name>dfs.namenode.http-address.nameservicebk.namenode251</name>
+    <name>dfs.namenode.http-address.tztax.namenode159</name>
     <value>rd242:50070</value>
   </property>
   <property>
-    <name>dfs.namenode.https-address.nameservicebk.namenode251</name>
+    <name>dfs.namenode.https-address.tztax.namenode159</name>
     <value>rd242:50470</value>
   </property>
   <property>
     <name>dfs.replication</name>
-    <value>3</value>
+    <value>1</value>
   </property>
   <property>
     <name>dfs.blocksize</name>

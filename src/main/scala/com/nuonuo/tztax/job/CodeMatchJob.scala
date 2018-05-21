@@ -6,8 +6,8 @@ import org.apache.logging.log4j.LogManager
 import org.apache.spark.rdd.RDD
 
 object CodeMatchJob extends App {
-  System.setProperty("user.name", "tax");
-  System.setProperty("HADOOP_USER_NAME", "tax");
+  System.setProperty("user.name", "tax")
+  System.setProperty("HADOOP_USER_NAME", "tax")
 
   val logger = LogManager.getLogger(getClass.getName)
 
